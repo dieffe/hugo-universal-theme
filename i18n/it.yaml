@@ -1,6 +1,21 @@
 - id: home
   translation: "Home"
 
+- id: menu_ind
+  translation: "Industrie"
+
+- id: menu_cap
+  translation: "Capacità"
+
+- id: menu_team
+  translation: "Team"
+
+- id: menu_car
+  translation: "Carriere"
+
+- id: menu_cont
+  translation: "Contatti"
+
 - id: templateBy
   translation: "Design di"
 
