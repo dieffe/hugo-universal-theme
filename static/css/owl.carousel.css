@@ -3,6 +3,11 @@
  *	v1.3.2
  */
 
+.owl-wrapper {
+	width: auto !important;
+	text-align: center;
+}
+
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
@@ -38,7 +43,7 @@
 }
 
 .owl-carousel .owl-item{
-	float: left;
+	display: inline-block;
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{

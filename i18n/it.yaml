@@ -16,6 +16,20 @@
 - id: menu_cont
   translation: "Contatti"
 
+- id: box_mission_title
+  translation: "La nostra mission"
+
+- id: box_valori_title
+  translation: "I nostri valori"
+
+- id: box_appr_title
+  translation: "Il nostro approccio"
+
+
+
+
+  
+
 - id: templateBy
   translation: "Design di"
 

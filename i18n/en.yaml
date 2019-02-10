@@ -1,3 +1,4 @@
+
 - id: home
   translation: "Home"
 
@@ -15,6 +16,18 @@
 
 - id: menu_cont
   translation: "Contacts"
+
+- id: box_mission_title
+  translation: "Our mission"
+
+- id: box_valori_title
+  translation: "Our values"
+
+- id: box_appr_title
+  translation: "Our approach"
+
+
+
 
 - id: templateBy
   translation: "Template by"
