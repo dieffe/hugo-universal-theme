@@ -20,6 +20,9 @@
 - id: box_mission_title
   translation: "Our mission"
 
+- id: box_mission_text
+  translation: "Affiancare i nostri clienti nel lungo periodo per contribuire concretamente ai loro successi nel tempo"
+
 - id: box_valori_title
   translation: "Our values"
 

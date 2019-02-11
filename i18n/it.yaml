@@ -19,16 +19,25 @@
 - id: box_mission_title
   translation: "La nostra mission"
 
+- id: box_mission_text
+  translation: "Affiancare i nostri clienti nel lungo periodo per contribuire concretamente ai loro successi nel tempo"
+
 - id: box_valori_title
   translation: "I nostri valori"
+
+- id: box_valori_text
+  translation: "Affiancare i nostri clienti nel lungo periodo per contribuire concretamente ai loro successi nel tempo"
 
 - id: box_appr_title
   translation: "Il nostro approccio"
 
+- id: box_appr_text
+  translation: "Affiancare i nostri clienti nel lungo periodo per contribuire concretamente ai loro successi nel tempo"
 
 
 
-  
+
+
 
 - id: templateBy
   translation: "Design di"

@@ -15,8 +15,8 @@
                                   <h5>{{ i18n .name }}</h5>
                               </div>
 
-                            <div class="text">
-                                <p>{{ .text | markdownify }}</p>
+                            <div class="text" style="text-align: left, vertical-align: top">
+                                <p>{{ i18n .text | markdownify }}</p>
                             </div>
                         </div>
                     </li>
