@@ -30,7 +30,7 @@
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ T .Name }}</a>
+                    <a href="{{ .URL | absLangURL }}">{{ T .Name }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}
