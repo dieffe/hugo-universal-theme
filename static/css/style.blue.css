@@ -1306,9 +1306,10 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: center;
 }
 .testimonials .item .testimonial .name-picture h5 {
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  padding-bottom: 20px;
 }
 .testimonials .item .testimonial .name-picture p {
   color: #999999;
