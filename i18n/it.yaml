@@ -1,6 +1,9 @@
 - id: home
   translation: "Home"
 
+- id: menu_lang
+  translation: "Languages"
+
 - id: menu_ind
   translation: "Industries"
 
@@ -35,6 +38,8 @@
   translation: "Affiancare i nostri clienti nel lungo periodo per contribuire concretamente ai loro successi nel tempo"
 
 
+- id: caro_1
+  translation: "pino"
 
 
 

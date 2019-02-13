@@ -2,6 +2,9 @@
 - id: home
   translation: "Home"
 
+- id: menu_lang
+  translation: "Languages"
+
 - id: menu_ind
   translation: "Industries"
 
