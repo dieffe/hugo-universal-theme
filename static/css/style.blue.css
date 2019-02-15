@@ -1723,9 +1723,41 @@ fieldset[disabled] .btn-template-primary.active {
 .box.no-border {
   border: none;
 }
+.head-fin {
+  background: url('../img/fin.jpg') center center repeat;
+}
+
+.sub-title-section {
+  border-bottom: 1px solid #d4d4d4;
+  color: #00306e;
+
+}
+
+.grid-section {
+  display: block;
+  width: 33%;
+  float: left;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.content-section strong {
+  font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
+  color: #00306e;
+  display: block;
+  min-height: 40px;
+}
+
+.beautiful {
+  display: block;
+  top: -200px;
+  background-color: #FFF;
+  box-shadow: 0 0 24px rgba(0,0,0,0.4);
+}
+
 #heading-breadcrumbs {
-  background: url('../img/texture-bw.png') center center repeat;
-  padding: 20px 0;
+  /* background: url('../img/texture-bw.png') center center repeat; */
+  padding: 150px 0;
   margin-bottom: 40px;
 }
 #heading-breadcrumbs.no-mb {

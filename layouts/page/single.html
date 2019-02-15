@@ -12,8 +12,11 @@
           {{ partial "nav.html" . }}
 
         </header>
-
-        {{ partial "breadcrumbs.html" . }}
+        {{ if isset .Params "header" }}
+              {{ partial .Params.header . }}
+        {{ else }}
+              {{ partial "breadcrumbs.html" . }}
+        {{ end }}
 
         <div id="content">
             {{ if isset .Params "id" }}
@@ -26,7 +29,7 @@
 
                 <div class="row">
 
-                    <div class="col-md-12">
+                    <div class="col-md-12 beautiful">
 
                         <div>
                           {{ .Content }}
