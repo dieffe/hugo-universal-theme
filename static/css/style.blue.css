@@ -1725,6 +1725,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .head-fin {
   background: url('../img/fin.jpg') center center repeat;
+  background-size: cover;
 }
 
 .sub-title-section {
@@ -1740,6 +1741,37 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin_perf.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+}
+
+.fin-sales-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/fin_sales.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.fin-credit-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/fin_credit.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.fin-inno-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/fin_inno.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.grid-cont {
+  text-align: center;
 }
 
 .fin-tech-img {
@@ -1761,9 +1793,9 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .grid-section {
-  display: block;
-  width: 33%;
-  float: left;
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
   min-height: 450px;
   padding: 10px;
 }
