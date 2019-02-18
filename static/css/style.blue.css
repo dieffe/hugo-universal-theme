@@ -1723,6 +1723,9 @@ fieldset[disabled] .btn-template-primary.active {
 .box.no-border {
   border: none;
 }
+
+
+/* headers */
 .head-fin {
   background: url('../img/fin.jpg') center center repeat;
   background-size: cover;
@@ -1731,6 +1734,11 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/team.jpg') center center repeat;
   background-size: cover;
 }
+.head-life {
+  background: url('../img/life.jpg') center center repeat;
+  background-size: cover;
+}
+/* headers */
 
 .sub-title-section {
   border-bottom: 1px solid #d4d4d4;
@@ -1853,7 +1861,7 @@ fieldset[disabled] .btn-template-primary.active {
 .team-desc {
   text-align: center;
 }
-
+/*team*/
 
 
 #heading-breadcrumbs {
