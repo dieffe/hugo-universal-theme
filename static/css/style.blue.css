@@ -1727,6 +1727,10 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin.jpg') center center repeat;
   background-size: cover;
 }
+.head-team {
+  background: url('../img/team.jpg') center center repeat;
+  background-size: cover;
+}
 
 .sub-title-section {
   border-bottom: 1px solid #d4d4d4;
@@ -1819,6 +1823,38 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #FFF;
   box-shadow: 0 0 24px rgba(0,0,0,0.4);
 }
+
+/*team*/
+#team-cont {
+  text-align: center;
+  display: block;
+}
+
+.team-member {
+  display: inline-block;
+  max-width: 30%;
+  float: left;
+  margin: 10px;
+}
+
+.team-name {
+  font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
+  color: #00306e;
+  font-size: 16px;
+  min-height: 40px;
+  font-weight: 700;
+}
+
+.team-img img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.team-desc {
+  text-align: center;
+}
+
+
 
 #heading-breadcrumbs {
   /* background: url('../img/texture-bw.png') center center repeat; */
