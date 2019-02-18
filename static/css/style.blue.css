@@ -1724,6 +1724,17 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 
+#science-sectors {
+  display: block;
+}
+
+#science-sectors li {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  border: 1px solid #999;
+}
+
 
 /* headers */
 .head-fin {
@@ -1743,7 +1754,6 @@ fieldset[disabled] .btn-template-primary.active {
 .sub-title-section {
   border-bottom: 1px solid #d4d4d4;
   color: #00306e;
-
 }
 
 .fin-organization-img {
@@ -1816,6 +1826,10 @@ fieldset[disabled] .btn-template-primary.active {
 .t8p-title {
   font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
   color: #00306e;
+}
+
+.content-section img {
+  border-radius: 25px;
 }
 
 .content-section strong {
