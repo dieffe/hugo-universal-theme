@@ -1306,10 +1306,10 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: center;
 }
 .testimonials .item .testimonial .name-picture h5 {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .testimonials .item .testimonial .name-picture p {
   color: #999999;
@@ -1799,6 +1799,11 @@ fieldset[disabled] .btn-template-primary.active {
   min-height: 450px;
   padding: 10px;
   text-align: left;
+}
+
+.t8p-title {
+  font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
+  color: #00306e;
 }
 
 .content-section strong {
