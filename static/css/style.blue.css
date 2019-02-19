@@ -1813,12 +1813,51 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 20px;
   background-size: cover;
 }
+.fin-life-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('../img/life01.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.fin-life2-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('../img/life02.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.fin-life3-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('../img/life03.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.fin-life4-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('../img/life04.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.mini-hero {
+  color: #4a4a4a;
+  font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+  line-height: 1.33333em;
+  text-align: center;
+}
 
 .grid-section {
   display: inline-block;
   max-width: 300px;
   vertical-align: top;
-  min-height: 450px;
   padding: 10px;
   text-align: left;
 }
@@ -1829,7 +1868,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .content-section img {
-  border-radius: 25px;
+  border-radius: 0px;
 }
 
 .content-section strong {
@@ -1837,6 +1876,10 @@ fieldset[disabled] .btn-template-primary.active {
   color: #00306e;
   display: block;
   min-height: 40px;
+}
+
+#contact {
+  
 }
 
 .beautiful {
@@ -1877,6 +1920,16 @@ fieldset[disabled] .btn-template-primary.active {
 }
 /*team*/
 
+/*life-science*/
+.button-more {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #00306e;
+    text-align: center;
+    color: #00306e;
+    font-size: 14px;
+}
 
 #heading-breadcrumbs {
   /* background: url('../img/texture-bw.png') center center repeat; */
@@ -3515,10 +3568,13 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
   font-weight: 900;
+  letter-spacing: -.02em;
+  font-weight: 600;
+  font-style: normal;
   line-height: 1.1;
-  color: #333333;
+  color: #00306e;
 }
 h1,
 .h1,
