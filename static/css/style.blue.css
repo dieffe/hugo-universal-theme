@@ -1794,7 +1794,8 @@ fieldset[disabled] .btn-template-primary.active {
 
 .grid-cont {
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 450px) {
   .grid-cont {
     text-align: center;
   }
@@ -1898,16 +1899,23 @@ fieldset[disabled] .btn-template-primary.active {
 
 .team-member {
   display: inline-block;
-  max-width: 30%;
   float: left;
   margin: 10px;
+}
+@media screen and (min-width: 450px) {
+  .team-member {
+    display: inline-block;
+    max-width: 45%;
+    float: left;
+    margin: 10px;
+  }
 }
 
 .team-name {
   font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
   color: #00306e;
   font-size: 16px;
-  min-height: 40px;
+  min-height: 30px;
   font-weight: 700;
 }
 
@@ -1917,9 +1925,16 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .team-desc {
-  text-align: center;
+  text-align: justify;
 }
 /*team*/
+
+.separator {
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  margin-top: 20px;
+}
 
 /*life-science*/
 .button-more {
