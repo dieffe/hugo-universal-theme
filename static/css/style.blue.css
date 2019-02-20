@@ -1794,6 +1794,11 @@ fieldset[disabled] .btn-template-primary.active {
 
 .grid-cont {
 }
+@media screen and (max-width: 480px) {
+  .grid-cont {
+    text-align: center;
+  }
+}
 
 .fin-tech-img {
   display: block;
@@ -1814,32 +1819,28 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .fin-life-img {
   display: block;
-  width: 100px;
-  height: 100px;
+  height: 200px;
   background: url('../img/life01.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
 }
 .fin-life2-img {
   display: block;
-  width: 100px;
-  height: 100px;
+  height: 200px;
   background: url('../img/life02.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
 }
 .fin-life3-img {
   display: block;
-  width: 100px;
-  height: 100px;
+  height: 200px;
   background: url('../img/life03.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
 }
 .fin-life4-img {
   display: block;
-  width: 100px;
-  height: 100px;
+  height: 200px;
   background: url('../img/life04.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
@@ -1886,6 +1887,7 @@ fieldset[disabled] .btn-template-primary.active {
   top: -200px;
   background-color: #FFF;
   box-shadow: 0 0 24px rgba(0,0,0,0.4);
+  padding-top: 5px;
 }
 
 /*team*/
