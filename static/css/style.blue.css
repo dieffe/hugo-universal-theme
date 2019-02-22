@@ -1741,6 +1741,10 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin.jpg') center center repeat;
   background-size: cover;
 }
+.head-contact {
+  background: url('../img/contact.jpg') center center repeat;
+  background-size: cover;
+}
 .head-team {
   background: url('../img/team.jpg') center center repeat;
   background-size: cover;
