@@ -1749,6 +1749,10 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/life.jpg') center center repeat;
   background-size: cover;
 }
+.head-car {
+  background: url('../img/career2.jpg') center center repeat;
+  background-size: cover;
+}
 /* headers */
 
 .sub-title-section {
@@ -1792,7 +1796,9 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 
-.grid-cont {
+.grid-cont-2 {
+  text-align: center;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 450px) {
@@ -1863,6 +1869,23 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: left;
 }
 
+.grid-section-2 {
+  display: inline-block;
+  max-width: 45%;
+  min-width: 45%;
+  vertical-align: top;
+  padding: 10px;
+  text-align: left;
+}
+
+.grid-section-single {
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  padding: 10px;
+  text-align: left;
+}
+
 .t8p-title {
   font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
   color: #00306e;
@@ -1891,11 +1914,58 @@ fieldset[disabled] .btn-template-primary.active {
   padding-top: 5px;
 }
 
+/*careers*/
+.path-title {
+  font-weight:900; color: #00306e;
+}
+.path-grid {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  max-width: 22%;
+}
+.fin-careers-why {
+  display: block;
+  height: 100px;
+  background: url('../img/careers-why.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.fin-careers-believe {
+  display: block;
+  height: 100px;
+  background: url('../img/careers-believe.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.fin-careers-path {
+  display: block;
+  height: 200px;
+  background: url('../img/careers-path.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.fin-careers-process {
+  display: block;
+  height: 100px;
+  background: url('../img/careers-recruiting.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.fin-careers-interviews {
+  display: block;
+  height: 100px;
+  background: url('../img/careers-interview.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
 /*team*/
 #team-cont {
   text-align: center;
   display: block;
 }
+
 
 .team-member {
   display: inline-block;
