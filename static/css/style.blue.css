@@ -1744,28 +1744,40 @@ fieldset[disabled] .btn-template-primary.active {
 /* headers */
 
 .head-fin {
-  background: url('../img/fin-b.jpg') center center repeat;
+  background: url('../img/fin.jpg') center center repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .head-contact {
-  background: url('../img/contact-b.jpg') center center repeat;
+  background: url('../img/contact.jpg') center center repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .head-team {
-  background: url('../img/team-b.jpg') center center repeat;
+  background: url('../img/team.jpg') center center repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .head-life {
-  background: url('../img/life-b.jpg') center center repeat;
+  background: url('../img/life.jpg') center center repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .head-car {
-  background: url('../img/career2-b.jpg') center center repeat;
+  background: url('../img/career2.jpg') center center repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .head-capabilities {
-  background: url('../img/capabilities-b.jpg') center center repeat;
+  background: url('../img/capabilities.jpg') center center repeat;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 /* headers */
 
@@ -1781,6 +1793,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin_perf.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .fin-sales-img {
@@ -1790,6 +1804,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin_sales.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .fin-credit-img {
@@ -1799,6 +1815,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin_credit.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .fin-inno-img {
@@ -1808,6 +1826,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin_inno.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .grid-cont-2 {
@@ -1834,6 +1854,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/cap-strat.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .cap-perf-img {
@@ -1843,6 +1865,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/cap-perf.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .cap-tech-img {
@@ -1852,6 +1876,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/cap-tech.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .cap-sales-img {
@@ -1861,6 +1887,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/cap-sales.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .cap-digital-img {
@@ -1870,6 +1898,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/cap-digital.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .cap-mna-img {
@@ -1879,6 +1909,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/cap-mna.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 
@@ -1890,6 +1922,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin_tech.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .fin-strategy-img {
@@ -1899,6 +1933,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fin_strategy.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-life-img {
   display: block;
@@ -1906,6 +1942,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/life01.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-life2-img {
   display: block;
@@ -1913,6 +1951,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/life02.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-life3-img {
   display: block;
@@ -1920,6 +1960,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/life03.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-life4-img {
   display: block;
@@ -1927,6 +1969,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/life04.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .mini-hero {
@@ -2006,6 +2050,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/careers-why.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-careers-believe {
   display: block;
@@ -2013,6 +2059,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/careers-believe.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-careers-path {
   display: block;
@@ -2020,6 +2068,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/careers-path.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-careers-process {
   display: block;
@@ -2027,6 +2077,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/careers-recruiting.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .fin-careers-interviews {
   display: block;
@@ -2034,6 +2086,8 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/careers-interview.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 /*team*/
