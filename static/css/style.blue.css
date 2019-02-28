@@ -1742,9 +1742,6 @@ fieldset[disabled] .btn-template-primary.active {
 
 
 /* headers */
-.tint:before {
-  background: rgba(0,255,255, 0.5);
-}
 
 .head-fin {
   background: url('../img/fin-b.jpg') center center repeat;
@@ -1764,6 +1761,10 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .head-car {
   background: url('../img/career2-b.jpg') center center repeat;
+  background-size: cover;
+}
+.head-capabilities {
+  background: url('../img/capabilities-b.jpg') center center repeat;
   background-size: cover;
 }
 /* headers */
@@ -1814,11 +1815,73 @@ fieldset[disabled] .btn-template-primary.active {
   margin-top: 20px;
 }
 
+.grid-cont {
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 450px) {
   .grid-cont {
     text-align: center;
   }
 }
+
+/*capabilities*/
+.cap-strategy-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/cap-strat.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.cap-perf-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/cap-perf.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.cap-tech-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/cap-tech.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.cap-sales-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/cap-sales.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.cap-digital-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/cap-digital.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+.cap-mna-img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: url('../img/cap-mna.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+
 
 .fin-tech-img {
   display: block;
