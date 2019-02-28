@@ -10,12 +10,13 @@
                     {{ range .Site.Data.testimonials }}
                     <li class="item">
                         <div class="testimonial same-height-always">
+                              <div class="{{ .img }}"></div>
                               <div class="name-picture">
-                                  <img class="" alt="" src="{{ .avatar | absURL }}">
+
                                   <h5 class="t8p-title">{{ i18n .name }}</h5>
                               </div>
 
-                            <div class="text" style="text-align: left, vertical-align: top">
+                            <div class="text" style="text-align: left; vertical-align: top">
                                 <p>{{ i18n .text | markdownify }}</p>
                             </div>
                         </div>

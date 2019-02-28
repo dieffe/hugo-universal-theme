@@ -2026,6 +2026,36 @@ fieldset[disabled] .btn-template-primary.active {
 
 }
 
+/*home*/
+.box-a {
+  display: block;
+  height: 100px;
+  background: url('../img/box-a.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.box-b {
+  display: block;
+  height: 100px;
+  background: url('../img/box-b.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.box-c {
+  display: block;
+  height: 100px;
+  background: url('../img/box-c.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
 .beautiful {
   display: block;
   top: -200px;

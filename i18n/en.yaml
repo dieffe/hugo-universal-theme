@@ -24,13 +24,29 @@
   translation: "Our mission"
 
 - id: box_mission_text
-  translation: "Affiancare i nostri clienti nel lungo periodo per contribuire concretamente ai loro successi nel tempo"
+  translation: "Our mission is very simple: we aim to support our customers in achieving their goals over time.
+We believe in solid partnership approach to deliver results and create value.<br>
+We believe it all starts with carefully listening to customers needs and continue with developing hand in hand the strategy able to bring their purpose to life.<br>
+Our experience, our team and our network are there to ensure strategy comes to life and bring the expected results.<br><br><br>
+"
 
 - id: box_valori_title
   translation: "Our values"
 
+- id: box_valori_text
+  translation: "<strong>Talent:</strong> team talent and skills are the key to our success, so we recruit, train and retain the best talents in the industry<br>
+<strong>Partnerships:</strong> we are not suppliers, but partners of our customers over time. We do share with them objectives, challenges, results and successes<br>
+<strong>Independence:</strong> We are not part of a Group and we do not have any bias: we respond to our values and our customers needs<br><br><br><br>
+"
+
 - id: box_appr_title
   translation: "Our approach"
+
+- id: box_appr_text
+  translation: "<strong>Results:</strong> Results is everything: we pragmatically stretch from strategy to operational activities: we are ready to share the risks and the work with our customers to create value over time.<br>
+<strong>Teamwork:</strong> We work side by side with our customers at all times, building mixed and integrated teams, to achieve goals together<br>
+<strong>Partnerships:</strong> We partner with the best professionals in the market in areas that we do not cover directly (Legal, IT, System Integration, ...) to guarantee our customers an answer to all their needs along the plans we develop together.
+"
 
 
 
