@@ -1149,6 +1149,11 @@ fieldset[disabled] .btn-template-primary.active {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+.dark-mask {
+  background: #121C35;
+  opacity: 0.7;
+  filter: alpha(opacity=90);
+}
 .home-carousel .dark-mask {
   position: absolute;
   top: 0;
@@ -1737,24 +1742,28 @@ fieldset[disabled] .btn-template-primary.active {
 
 
 /* headers */
+.tint:before {
+  background: rgba(0,255,255, 0.5);
+}
+
 .head-fin {
-  background: url('../img/fin.jpg') center center repeat;
+  background: url('../img/fin-b.jpg') center center repeat;
   background-size: cover;
 }
 .head-contact {
-  background: url('../img/contact.jpg') center center repeat;
+  background: url('../img/contact-b.jpg') center center repeat;
   background-size: cover;
 }
 .head-team {
-  background: url('../img/team.jpg') center center repeat;
+  background: url('../img/team-b.jpg') center center repeat;
   background-size: cover;
 }
 .head-life {
-  background: url('../img/life.jpg') center center repeat;
+  background: url('../img/life-b.jpg') center center repeat;
   background-size: cover;
 }
 .head-car {
-  background: url('../img/career2.jpg') center center repeat;
+  background: url('../img/career2-b.jpg') center center repeat;
   background-size: cover;
 }
 /* headers */
