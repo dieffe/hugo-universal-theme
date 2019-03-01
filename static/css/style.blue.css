@@ -1992,7 +1992,7 @@ fieldset[disabled] .btn-template-primary.active {
 .grid-section-2 {
   display: inline-block;
   max-width: 45%;
-  min-width: 45%;
+  min-width: 250px;
   vertical-align: top;
   padding: 10px;
   text-align: left;
@@ -2073,6 +2073,7 @@ fieldset[disabled] .btn-template-primary.active {
   float: left;
   margin-right: 20px;
   max-width: 22%;
+  min-width: 250px;
 }
 .fin-careers-why {
   display: block;
