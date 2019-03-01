@@ -2068,13 +2068,20 @@ fieldset[disabled] .btn-template-primary.active {
 .path-title {
   font-weight:900; color: #00306e;
 }
+
 .path-grid {
   display: block;
   float: left;
   margin-right: 20px;
   max-width: 22%;
-  min-width: 250px;
 }
+@media screen and (max-width: 450px) {
+  .path-grid {
+    min-width: 250px;
+  }
+}
+
+
 .fin-careers-why {
   display: block;
   height: 100px;
