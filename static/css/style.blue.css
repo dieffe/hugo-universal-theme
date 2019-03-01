@@ -1991,11 +1991,15 @@ fieldset[disabled] .btn-template-primary.active {
 
 .grid-section-2 {
   display: inline-block;
-  max-width: 45%;
-  min-width: 250px;
+  width: 45%;
   vertical-align: top;
   padding: 10px;
   text-align: left;
+}
+@media screen and (max-width: 450px) {
+  .grid-section-2 {
+    min-width: 90%;
+  }
 }
 
 .grid-section-single {
