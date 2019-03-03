@@ -1742,7 +1742,12 @@ fieldset[disabled] .btn-template-primary.active {
 
 
 /* headers */
-
+.head-power {
+  background: url('../img/power.jpeg') center center repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 .head-fin {
   background: url('../img/fin.jpg') center center repeat;
   background-size: cover;
@@ -1949,6 +1954,24 @@ fieldset[disabled] .btn-template-primary.active {
   display: block;
   height: 200px;
   background: url('../img/life02.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.fin-power-oil {
+  display: block;
+  height: 200px;
+  background: url('../img/oil.jpeg') center;
+  margin-bottom: 20px;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.fin-power-util {
+  display: block;
+  height: 200px;
+  background: url('../img/util.jpeg') center;
   margin-bottom: 20px;
   background-size: cover;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
