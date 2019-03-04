@@ -2004,6 +2004,8 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 2rem;
   line-height: 1.33333em;
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .grid-section {
@@ -2021,7 +2023,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .grid-section-2 {
   display: inline-block;
-  width: 45%;
+  width: 49%;
   vertical-align: top;
   padding: 10px;
   text-align: left;
