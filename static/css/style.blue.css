@@ -1740,6 +1740,8 @@ fieldset[disabled] .btn-template-primary.active {
   border: 1px solid #999;
 }
 
+.grid-section strong {
+}
 
 /* headers */
 .head-power {
@@ -2006,10 +2008,15 @@ fieldset[disabled] .btn-template-primary.active {
 
 .grid-section {
   display: inline-block;
-  max-width: 300px;
+  max-width: 33%;
   vertical-align: top;
   padding: 10px;
   text-align: left;
+}
+
+.content-text {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .grid-section-2 {
