@@ -20,7 +20,7 @@
   translation: "Contacts"
 
 - id: box_mission_title
-  translation: "La nostra mission"
+  translation: "Our mission"
 
 - id: box_mission_text
   translation: "Our mission is very simple: we aim to support our customers in achieving their goals over time.
@@ -30,7 +30,7 @@ Our experience, our team and our network are there to ensure strategy comes to l
 "
 
 - id: box_valori_title
-  translation: "I nostri valori"
+  translation: "Our values"
 
 - id: box_valori_text
   translation: "<strong>Talent:</strong> team talent and skills are the key to our success, so we recruit, train and retain the best talents in the industry<br>
@@ -39,7 +39,7 @@ Our experience, our team and our network are there to ensure strategy comes to l
 "
 
 - id: box_appr_title
-  translation: "Il nostro approccio"
+  translation: "Our approach"
 
 - id: box_appr_text
   translation: "<strong>Results:</strong> Results is everything: we pragmatically stretch from strategy to operational activities: we are ready to share the risks and the work with our customers to create value over time.<br>
