@@ -2019,6 +2019,11 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 10px;
   text-align: left;
 }
+@media screen and (max-width: 450px) {
+  .grid-section {
+    min-width: 96%;
+  }
+}
 
 .content-text {
   margin-right: 10px;
@@ -2034,7 +2039,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 @media screen and (max-width: 450px) {
   .grid-section-2 {
-    min-width: 90%;
+    min-width: 96%;
   }
 }
 
