@@ -1998,6 +1998,10 @@ fieldset[disabled] .btn-template-primary.active {
   filter: grayscale(100%);
 }
 
+.logot8p {
+  width: 200px;
+}
+
 .mini-hero {
   color: #4a4a4a;
   font-family: "Chronicle Deck", Georgia, Times, "Times New Roman", serif;
