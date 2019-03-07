@@ -81,11 +81,11 @@ function sliderHomepage () {
     // var owl = $('#slider')
 
     $('#slider').owlCarousel({
-      autoPlay: 3000,
-      items: 4,
-      itemsDesktopSmall: [900, 3],
-      itemsTablet: [600, 3],
-      itemsMobile: [500, 2]
+      autoPlay: 0,
+      items: 2,
+      itemsDesktopSmall: [900, 1],
+      itemsTablet: [600, 1],
+      itemsMobile: [500, 1]
     })
   }
 }
@@ -94,16 +94,16 @@ function sliderHomepage () {
 function sliders () {
   if ($('.owl-carousel').length) {
     $('.customers').owlCarousel({
-      items: 6,
-      itemsDesktopSmall: [990, 4],
-      itemsTablet: [768, 2],
+      items: 3,
+      itemsDesktopSmall: [990, 1],
+      itemsTablet: [768, 1],
       itemsMobile: [480, 1]
     })
 
     $('.testimonials').owlCarousel({
-      items: 4,
+      items: 3,
       itemsDesktopSmall: [990, 3],
-      itemsTablet: [768, 2],
+      itemsTablet: [768, 1],
       itemsMobile: [480, 1]
     })
 
@@ -116,7 +116,7 @@ function sliders () {
       stopOnHover: true,
       singleItem: true,
       afterInit: '',
-      lazyLoad: true
+      lazyLoad: true,
     })
 
     $('.homepage').owlCarousel({
@@ -124,13 +124,16 @@ function sliders () {
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
       slideSpeed: 2000,
       paginationSpeed: 1000,
-      autoPlay: true,
+      autoPlay: false,
       stopOnHover: true,
       singleItem: true,
       lazyLoad: false,
-      addClassActive: true,
+      addClassActive: false,
+      dots: false,
       afterInit: function () {
         // animationsSlider()
+        var wi =   $(".owl-carousel").width()*3;
+        $(".owl-wrapper").width( wi );
       },
       afterMove: function () {
         // animationsSlider()

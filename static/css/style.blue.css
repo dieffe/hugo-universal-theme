@@ -2126,6 +2126,19 @@ fieldset[disabled] .btn-template-primary.active {
   }
 }
 
+.item-home {
+  background-color: #FFF;
+  max-width: 30%;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+@media screen and (max-width: 450px) {
+  .item-home {
+    min-width: 90%;
+  }
+}
+
 
 .fin-careers-why {
   display: block;
