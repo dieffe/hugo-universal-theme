@@ -2072,6 +2072,14 @@ fieldset[disabled] .btn-template-primary.active {
   filter: grayscale(100%);
 }
 
+@media screen and (max-width: 450px) {
+  .image-home {
+    display: none;
+  }
+}
+
+
+
 #contact {
 
 }
