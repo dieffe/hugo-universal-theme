@@ -2149,6 +2149,7 @@ fieldset[disabled] .btn-template-primary.active {
 @media screen and (max-width: 450px) {
   .item-home {
     min-width: 90%;
+    margin-left: -3px;
   }
 }
 
