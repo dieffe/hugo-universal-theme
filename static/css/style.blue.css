@@ -1841,6 +1841,12 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: center;
   margin-top: 20px;
 }
+@media screen and (max-width: 450px) {
+  .grid-cont-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 .grid-cont {
   text-align: left;
@@ -2045,7 +2051,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .grid-section-single {
   display: inline-block;
-  width: 90%;
+  width: 99%;
   vertical-align: top;
   padding: 10px;
   text-align: left;
@@ -2121,7 +2127,12 @@ fieldset[disabled] .btn-template-primary.active {
   box-shadow: 0 0 24px rgba(0,0,0,0.4);
   padding-top: 5px;
 }
-
+@media screen and (max-width: 450px) {
+  .beautiful {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 /*careers*/
 .path-title {
   font-weight:900; color: #00306e;
