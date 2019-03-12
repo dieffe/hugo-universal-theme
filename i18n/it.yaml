@@ -20,31 +20,31 @@
   translation: "Contacts"
 
 - id: box_mission_title
-  translation: "Our mission"
+  translation: "La nostra mission"
 
 - id: box_mission_text
-  translation: "Our mission is very simple: we aim to support our customers in achieving their goals over time.
-We believe in solid partnership approach to deliver results and create value.<br>
-We believe it all starts with carefully listening to customers needs and continue with developing hand in hand the strategy able to bring their purpose to life.<br>
-Our experience, our team and our network are there to ensure strategy comes to life and bring the expected results.<br><br><br>
+  translation: "Affiancare i nostri clienti nel lungo periodo per contribuire concretamente ai loro successi nel tempo
+Crediamo nelle partnership di lungo periodo.
+Crediamo che strategie di successo siano basate sulla profonda comprensione delle esigenze dei nostri clienti.
+La nostra esperienza, il nostro team ed il nostro network sono a disposizione dei nostri clienti per assicurare loro che le strategie definite insieme si traducano nei risultati attesi.<br><br><br>
 "
 
 - id: box_valori_title
-  translation: "Our values"
+  translation: "I nostri valori"
 
 - id: box_valori_text
-  translation: "<strong>Talent:</strong> team talent and skills are the key to our success, so we recruit, train and retain the best talents in the industry<br>
-<strong>Partnerships:</strong> we are not suppliers, but partners of our customers over time. We do share with them objectives, challenges, results and successes<br>
-<strong>Independence:</strong> We are not part of a Group and we do not have any bias: we respond to our values and our customers needs<br><br><br><br>
+  translation: "<strong>Talento:</strong> siamo convinti che il talento e la qualità delle persone siano la chiave del nostro successo, per questo reclutiamo, formiamo e manteniamo nel tempo i migliori talenti che il mercato offre<br>
+<strong>Partnerships:</strong> non vogliamo essere fornitori, ma diventare e rimanere nel tempo partner dei nostri clienti, condividendo con loro obiettivi, sfide, percorsi, risultati e successi<br>
+<strong>Indipendenza:</strong> Non siamo parte di un Gruppo e non dobbiamo piegarci ad alcun interesse: dobbiamo rispondere solamente ai nostri valori ed ai bisogni dei nostri clienti<br><br><br><br>
 "
 
 - id: box_appr_title
-  translation: "Our approach"
+  translation: "Il nostro approccio"
 
 - id: box_appr_text
-  translation: "<strong>Results:</strong> Results is everything: we pragmatically stretch from strategy to operational activities: we are ready to share the risks and the work with our customers to create value over time.<br>
-<strong>Teamwork:</strong> We work side by side with our customers at all times, building mixed and integrated teams, to achieve goals together<br>
-<strong>Partnerships:</strong> We partner with the best professionals in the market in areas that we do not cover directly (Legal, IT, System Integration, ...) to guarantee our customers an answer to all their needs along the plans we develop together.
+  translation: "<strong>Orientamento ai risultati:</strong> Abbiamo un approccio pragmatico e fortemente orientato ai risultati: per questo ci facciamo carico anche di attività operative, siamo flessibili e pronti a condividere i rischi dei percorsi progettuali<br>
+<strong>Lavoro di squadra:</strong> Lavoriamo al fianco dei nostri clienti, costruendo team misti ed integrati, con l’obiettivo di condividere tutti gli step progettuali e le decisioni chiave ed arrivare sempre ad un risultato che sia frutto del lavoro di squadra<br>
+<strong>Partnerships:</strong> Abbiamo stretto partnership con i migliori professionisti del mercato in ambiti che noi non copriamo direttamente (ad esempio Legal, IT, System Integration, …) in modo da poter garantire ai nostri clienti una risposta a tutte le loro esigenze
 "
 
 
