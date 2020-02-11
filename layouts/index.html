@@ -3,8 +3,15 @@
 
   {{ partial "head.html" . }}
 
-  <body class="">
-    
+  <body>
+    a
+    <ul>
+      {{ range (where .Pages "Section" "capabilities") }}
+      <li>
+          {{ .Title }}
+      </li>
+      {{ end }}
+    </ul>
     <div id="all">
 
         <header>
