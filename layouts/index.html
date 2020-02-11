@@ -33,6 +33,14 @@
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+    <ul>
+      {{ range (where .Pages "Section" "capabilities") }}
+      <li>
+          {{ .Title }}
+      </li>
+      {{ end }}
+    </ul>
+    
   </body>
 </html>
