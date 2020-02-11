@@ -3,7 +3,7 @@
 
   {{ partial "head.html" . }}
 
-  <body>
+  <body class="">
     
     <div id="all">
 
@@ -33,14 +33,6 @@
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-
-    <ul>
-      {{ range (where .Pages "Section" "capabilities") }}
-      <li>
-          {{ .Title }}
-      </li>
-      {{ end }}
-    </ul>
     
   </body>
 </html>
