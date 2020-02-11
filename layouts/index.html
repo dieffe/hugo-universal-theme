@@ -4,13 +4,7 @@
   {{ partial "head.html" . }}
 
   <body>
-    <ul>
-      {{ range (where .Pages "Section" "capabilities") }}
-      <li>
-          {{ .title }}
-      </li>
-      {{ end }}
-    </ul>
+    
     <div id="all">
 
         <header>
