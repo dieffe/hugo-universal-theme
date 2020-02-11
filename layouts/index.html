@@ -8,7 +8,7 @@
       {{ range (where .Pages "Section" "contenuti") }}
       <li>
         <a href="{{ .Permalink }}">
-          {{ .Title }}
+          {{ .title }}
         </a>
       </li>
       {{ end }}
