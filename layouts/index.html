@@ -4,6 +4,15 @@
   {{ partial "head.html" . }}
 
   <body class="">
+    <ul>
+      {{ range (where .Pages "Section" "contenuti") }}
+      <li>
+        <a href="{{ .Permalink }}">
+          {{ .Title }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
     <div id="all">
 
         <header>
