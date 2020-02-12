@@ -3,7 +3,7 @@
 
   {{ partial "head.html" . }}
 
-  <body>
+  <body class="{{ .Params.title }}">
 
     <div id="all">
 
@@ -17,20 +17,18 @@
         {{ else }}
               {{ partial "breadcrumbs.html" . }}
         {{ end }}
-
+        
         <div id="content">
             {{ if isset .Params "id" }}
 
               {{ partial .Params.id . }}
 
             {{ else }}
-
             <div class="container">
 
                 <div class="row">
 
                     <div class="col-md-12 beautiful">
-
                         <div>
                           {{ .Content }}
                         </div>
